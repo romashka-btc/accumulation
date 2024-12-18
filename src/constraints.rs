@@ -298,7 +298,7 @@ pub mod tests {
             .unwrap();
             println!("Cost of verify {:?}", cs.num_constraints() - start_cost);
 
-            println!("Num constaints: {:}", cs.num_constraints());
+            println!("Num constraints: {:}", cs.num_constraints());
             println!("Num instance: {:}", cs.num_instance_variables());
             println!("Num witness: {:}", cs.num_witness_variables());
 
